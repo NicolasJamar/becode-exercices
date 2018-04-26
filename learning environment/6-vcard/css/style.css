@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/********/
+
+body{
+	font-family: 'Encode Sans Expanded', sans-serif;
+	margin-top: 120px;
+	margin-left: 25%;
+	
+}
+
+main{
+
+}
+
+#section1 {
+  display: grid;
+  grid-template-columns: 200px 450px;
+  grid-template-rows: 100px;
+  
+}
+  
+.cadre1 {
+  grid-column: 1; grid-row: 1;
+  background-color: #16232E;
+  
+}
+.cadre2 {
+  grid-column: 2; grid-row: 1;
+  background-color: #fff;
+  padding-left: 20px;
+  background-color: #63C3D1;
+}
+
+#section2{
+  display: grid;
+  grid-template-columns: 200px 150px 300px;
+  grid-template-rows: 300px;
+}
+
+.cadre3 {
+  grid-column: 1; grid-row: 1;
+  /*background-color: green;*/
+  padding: auto;
+  background-color: #63C3D1;
+}
+.cadre4 {
+  grid-column: 2; grid-row: 1;
+  background-color: #16232E;
+}
+
+.cadre5 {
+	grid-column: 3; grid-row: 1;
+}
+
+.cadre2 li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.socialimg{
+	width: 70px;
+}
+
+#imgbecode{
+	display: block;
+	margin: 17px auto 0 auto;
+}
+
+.gauche1{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+  	/*width: 50px;
+  	/*height: 20%;*/
+}
+
+
+.gauche2{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 
+  	
+}
+
+
+.droite{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+  	width: 60%;  	
+}
+
+.cadre4 ul{
+	margin: 30px 0 0 20px;
+}
+
+li{
+	font-size: 20px;
+}
+
+.gauche li{
+	padding: 3px;
+	background-color: grey;
+	margin-top: 18px;
+	border-radius: 15px 30px;
+	text-align: center;
+	box-shadow: 2px 4px 3px black;
+
+}
+
+.droite li{
+	padding: 3px;
+	background-color: grey;
+	margin: 15px;
+	border-radius: 15px 30px;
+	box-shadow: 2px 4px 3px black;
+}

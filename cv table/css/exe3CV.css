@@ -1,0 +1,214 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+
+body{
+	padding: 5%;
+	background-color: #bdc3c7;
+}
+
+main{
+	background-color: #fff;
+}
+
+footer{
+	width: 100%;
+	height: 25px;
+	background-color: #3498db;
+}
+
+table{
+	position: relative;
+	width: 93%;
+	/*border: 1px solid red;*/
+	margin: auto;
+}
+
+#tabheader tr:first-child{
+	height: 60px;
+}
+
+/*tr,th,td{
+	border: 1px solid green;
+}
+*/
+h1,h2,h3,h5,i{
+	color:#3498db;
+}
+
+p{
+	font-size: 17px;
+}
+
+.textright p{
+	text-align: right;
+}
+
+.textright h5{
+	text-align: right;
+}
+
+
+	/*HEADER*/
+
+.resume{
+	width: 130px;
+	background-color: #3498db;
+	margin-left: 4%;
+	text-align: center;
+	color: #fff;
+	padding: 60px 0 15px 0;
+	font-size: 20px;
+}
+
+#tabheader{
+	width: 100%;
+}
+
+#headerfirstline{
+	width: 60%;
+
+}
+
+h1{
+	vertical-align: bottom;
+	font-size: 50px;
+	height: 48px;
+}
+
+td #subtitle{
+	vertical-align: top;
+	font-size: 25px;
+}
+
+td #tabheader{
+	vertical-align: bottom;
+}
+
+.favicon{
+	width: 20px;
+}
+
+
+	/*GRANDE PARTIE A GAUCHE*/
+
+#tabgauche{
+	vertical-align: top;
+	padding-right: 80px;
+
+}
+
+.experience1{
+	margin-top: 16%;
+	vertical-align: top;
+
+}
+
+.date{
+	vertical-align: top;
+	width: 120px;
+}
+
+#tabgauche p{
+	margin-bottom: 50px;
+}
+
+
+	/*Partie du dessous à gauche*/
+
+.experience2{
+	margin-top: 100px;
+}
+
+
+	/*GRANDE PARTIE A DROITE*/
+
+#tabdroite{
+	position: relative;
+	width: 40%;
+	padding-bottom: 7%;
+}
+
+.skills,.personnal,.wpl{
+	width: 100%;
+	margin-top: 15%;
+	border-bottom: 3px solid rgba(52,152,219, 0.2);
+	margin-right: 0px;*/
+}
+
+.skills, .personnal{
+	padding-bottom: 25px;
+}
+
+#goodaverage p{
+	word-spacing: 20px;
+}
+
+.wpl h2{
+	padding-bottom: 20px;
+}
+
+.personnal tr,.skills tr{
+	height: 20px;
+}
+
+/*span{
+	display: inline-block;
+	padding-right: 20px;
+}
+*/
+.wpl{
+	position: relative;
+	padding-bottom: 30px;
+}
+
+h5{
+	font-size: 14px;
+}
+
+.wpl p{
+	font-size: 14px;
+}
+
+progress{
+	appearance: none;
+	border: none;
+}
+
+
+.work,.play{
+	position: absolute;
+	bottom: 140px;
+	margin-bottom: 0px;
+
+	width: 130px;
+	height: 130px;
+	background-color: rgba(52,152,219, 0.7);
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	
+	border-radius: 2px;
+	-ms-transform: rotate(-70deg); /* IE 9 */
+    -webkit-transform: rotate(-70deg); /* Chrome, Safari, Opera */
+    transform: rotate(-70deg);
+}
+
+.work{
+	left:130px;
+	padding: 18px 0 0 0;
+	z-index: 2;
+}
+
+.play{
+	padding: 85px 0 0 0;
+	
+	left: 200px;
+	
+	z-index: 1;
+}

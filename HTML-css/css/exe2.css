@@ -1,0 +1,26 @@
+
+
+table{
+	border: 1px solid;
+}
+
+#title{
+	color: #000;
+}
+
+tr{
+	color: green;
+}
+
+.fille{
+	color: #8e44ad;
+}
+
+tr:nth-child(2n+2){
+	background-color: #bdc3c7;
+}
+
+a{
+	background-color: yellow;
+	margin-top: 400px;
+}

@@ -1,0 +1,46 @@
+body{
+	width: 100%;
+	height: 100%;
+	animation: sreen 4s infinite;
+
+}
+
+a{
+	background-color: yellow;
+	position: absolute;
+	bottom: 20px;
+}
+#exe2{
+	bottom: 40px;
+}
+
+@keyframes sreen{
+	0%{background-color: #3498db}
+	25%{background-color:#2ecc71 }
+	50%{background-color: #9b59b6}
+	75%{background-color: #34495e}
+	100%{background-color: #1abc9c};
+}
+
+#hero{
+	width: 75px;
+	height: 75px;
+    position :relative;
+    background-color: transparent;
+    
+    -webkit-animation: superman 4s infinite; /* Safari 4.0 - 8.0 */
+    animation: superman 4s infinite;
+    
+    animation-direction: alternate;
+}
+
+@keyframes superman{
+	0% { top: 0px; left: 0%; }
+  	50%  { top: 0px; left: 83%; }
+
+  	100% {top: 200px; left: 83%;}
+/*
+  	from {transform: rotate(0deg);}
+  	to {transform: rotate(360deg);}*/
+}
+
