@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ABP asbl</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS
+================================================== -->
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="assets/css/prettyPhoto.css" />
+<link rel="stylesheet" href="assets/css/flexslider.css" />
+<link rel="stylesheet" href="assets/css/custom-styles.css">
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/style-ie.css"/>
+<![endif]--> 
+
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+<!-- JS
+================================================== -->
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/jquery.flexslider.js"></script>
+<script src="assets/js/jquery.custom.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $("#btn-blog-next").click(function () {
+      $('#blogCarousel').carousel('next')
+    });
+     $("#btn-blog-prev").click(function () {
+      $('#blogCarousel').carousel('prev')
+    });
+
+     $("#btn-client-next").click(function () {
+      $('#clientCarousel').carousel('next')
+    });
+     $("#btn-client-prev").click(function () {
+      $('#clientCarousel').carousel('prev')
+    });
+    
+});
+
+ $(window).load(function(){
+
+    $('.flexslider').flexslider({
+        animation: "slide",
+        slideshow: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+    });  
+});
+
+</script>
+
+</head>
+
+<body class="home">
+    <!-- Color Bars (above header)-->
+	<div class="color-bar-1"></div>
+    <div class="color-bar-2 color-bg"></div>
+    
+    <div class="container">
+    
+      <div class="row header"><!-- Begin Header -->
+      
+        <!-- Logo
+        ================================================== -->
+        <div class="span5 logo">
+        	<a href="index.html"><img src="assets/img/logo_abp.png" alt="logo ABP" /></a>
+            <br>
+            <h5>Tél. : 02 421 69 65</h5>
+        </div>
+        
+        <!-- Main Navigation
+        ================================================== -->
+        <div class="span7 navigation">
+            <div class="navbar hidden-phone">
+            
+            <ul class="nav">
+            
+           <li><a href="index.html">Accueil</a></li>
+           <li class="dropdown active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">L'ABP <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Composition de l'ASBL</a></li>
+                    <li><a href="index.html">Historique</a></li>
+                    <li><a href="index.html">Rapport d'activité</a></li>
+                    <li><a href="index.html">ABP Contact (magazine)</a></li>
+                    <li><a href="index.html">Coordonnées</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Camps de vacances<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Devenir Bénévole</a></li>
+                    <li><a href="index.html">Kanp à Bruxelles</a></li>
+                    <li><a href="index.html">Camp Marbehan</a></li>
+                    <li><a href="index.html">Camp Ter Helme</a></li>
+                    <li><a href="index.html">Photos des camps</a></li>
+                    <li><a href="index.html">Financements et dons</a></li>
+                </ul>
+            </li>
+             <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Activités et loisirs<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">ABP - Handvisit</a></li>
+                    <li><a href="index.html">ABP Boussu</a></li>
+                    <li><a href="index.html">AMV ASBL - Bruxelles</a></li>
+                    <li><a href="index.html">Voiture partagée et prêt de matériel</a></li>
+                </ul>
+             </li>
+             <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="http://www.abpasbl.be">ABP - Polio<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://www.abpasbl.be">La poliomyélite</a></li>
+                    <li><a href="http://www.abpasbl.be">Les activités</a></li>
+                    <li><a href="http://www.abpasbl.be">Le syndrôme post-polio (SPP)</a></li>
+                    <li><a href="http://www.abpasbl.be">Centres de référence neuro-musculaires</a></li>
+                    <li><a href="index.html">European polio union</a></li>
+                    <li><a href="index.html">Le secteur</a></li>
+                </ul>
+             </li>
+             <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="http://www.abpasbl.be">Infos sociales<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Allocations aux personnes hadicapées</a></li>
+                    <li><a href="index.html">Avantages sociaux</a></li>
+                    <li><a href="index.html">Logements</a></li>
+                    <li><a href="index.html">Aides individuelles</a></li>
+                    <li><a href="index.html">Services d'accompagnement</a></li>
+                    <li><a href="index.html">Emploi</a></li>
+                    <li><a href="index.html">Transports</a></li>
+                </ul>
+             </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Divers<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Allocations aux personnes hadicapées</a></li>
+                    <li><a href="index.html">Avantages sociaux</a></li>
+                    <li><a href="index.html">Logements</a></li>
+                    <li><a href="index.html">Aides individuelles</a></li>
+                    <li><a href="index.html">Services d'accompagnement</a></li>
+                    <li><a href="index.html">Emploi</a></li>
+                    <li><a href="index.html">Transports</a></li>
+                </ul>
+             </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="blog-style1.html">Nous soutenir<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="index.html">Allocations aux personnes hadicapées</a></li>
+                    <li><a href="index.html">Avantages sociaux</a></li>
+                    <li><a href="index.html">Logements</a></li>
+                    <li><a href="index.html">Aides individuelles</a></li>
+                    <li><a href="index.html">Services d'accompagnement</a></li>
+                    <li><a href="index.html">Emploi</a></li>
+                    <li><a href="index.html">Transports</a></li>
+                </ul>
+             </li>
+             <li><a href="page-contact.html">Contact</a></li>
+            </ul>
+           
+            </div>
+
+            <!-- Mobile Nav
+            ================================================== -->
+            <form action="#" id="mobile-nav" class="visible-phone">
+                <div class="mobile-nav-select">
+                <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                    <option value="">Navigate...</option>
+                    <option value="index.html">Accueil</option>
+                    <option value="index.html">l'ABP</option>
+                        <option value="index.html">- Composition de l'asbl</option>
+                        <option value="http://www.abpasbl.be">- Historique</option>
+                        <option value="http://www.abpasbl.be">- Slider Only</option>
+                    <option value="http://www.abpasbl.be">Camps de vacances</option>
+                    <option value="http://www.abpasbl.be">Activités et loisirs</option>
+                        <option value="http://www.abpasbl.be">- Full Width</option>
+                        <option value="http://www.abpasbl.be">- Right Sidebar</option>
+                        <option value="http://www.abpasbl.be">- Left Sidebar</option>
+                        <option value="http://www.abpasbl.be">- Double Sidebar</option>
+                    <option value="http://www.abpasbl.be">ABP - Polio</option>
+                        <option value="http://www.abpasbl.be">- 3 Column</option>
+                        <option value="http://www.abpasbl.be">- 4 Column</option>
+                        <option value="http://www.abpasbl.be">- 6 Column</option>
+                        <option value="http://www.abpasbl.be">- Gallery 4 Col Round</option>
+                        <option value="http://www.abpasbl.be">- Gallery Single</option>
+                    <option value="http://www.abpasbl.be">Infos sociales</option>
+                        <option value="http://www.abpasbl.be">- Blog Style 1</option>
+                        <option value="http://www.abpasbl.be">- Blog Style 2</option>
+                        <option value="http://www.abpasbl.be">- Blog Style 3</option>
+                        <option value="http://www.abpasbl.be">- Blog Style 4</option>
+                        <option value="index.html">- Blog Single</option>
+                    <option value="http://www.abpasbl.be">Divers</option>
+                    <option value="http://www.abpasbl.be">Nous soutenir</option>
+                    <option value="http://www.abpasbl.be">Contact</option>
+                </select>
+                </div>
+                </form>
+
+        </div>
+        
+      </div><!-- End Header -->
+     
+    <div class="row headline"><!-- Begin Headline -->
+    
+     	<!-- Slider Carousel
+        ================================================== -->
+        <div class="span8">
+            <div class="flexslider">
+              <ul class="slides">
+                <li><a href="https://www.facebook.com/events/1991089707880217/" target="_blank"><img src="assets/img/event1.jpg" alt="slider" /></a></li>
+                <li><a href="https://www.facebook.com/events/2017299511875426/" target="_blank"><img src="assets/img/event2.jpg" alt="slider" /></a></li>
+                <li><a href="https://www.facebook.com/events/1616196838472407/" target="_blank"><img src="assets/img/event3.jpg" alt="slider" /></a></li>
+                <li><a href="https://www.facebook.com/events/936385466486659/" target="_blank"><img src="assets/img/event4.jpg" alt="slider" /></a></li>
+              </ul>
+            </div>
+        </div>
+        
+        <!-- Headline Text
+        ================================================== -->
+        <div class="span4">
+        	<h3>Bienvenue sur le site de L'ABP<br/></h3>
+            <h5 class="title-bg">Agenda des activités</h5>
+            <h4>Découvrez les prochaines activités de l'ABP</h4>
+            <br>
+            <iframe id="calendar" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=fr.be%23holiday%40group.v.calendar.google.com&amp;color=%23BE6D00&amp;ctz=Europe%2FBrussels" style="border-width:0"  height="400" frameborder="0" scrolling="no"></iframe> 
+            
+        </div>
+    </div><!-- End Headline -->
+
+
+
+    <div class="row"><!--Container row-->
+
+    <!-- Title Header -->
+        <div class="span8"><!--Begin page content column-->
+
+            <h2>Qui Sommes-nous ?</h2>
+            <p class="lead">L'Association Belge des Paralysés oeuvre, au quotidien, au sein d’organes clés en matière d’accessibilité et de handicap comme :</p>
+            <ul id="ulbienvenue">
+                    <li>le Collectif Accessibilité Wallonie-Bruxelles (CAWaB)</li>
+                    <li>la Commission Régionale de Mobilité (CRM) - section PMR</li>
+                    <li>le Conseil Consultatif de la COCOF</li>
+            </ul>
+            <p class="lead">Parmi les priorités de l’ABP : le service d’informations sociales.
+
+            Ce service a pour but de simplifier la vie des membres qui souhaitent un renseignement ou veulent être dirigés vers une administration ou un service spécialisé. On a par ailleurs tenté de rassembler, sur ce site, plusieurs rubriques vous permettant de trouver réponse à vos questions.
+            Si tel n’est pas le cas, appelez-nous au <strong> 02 / 421 69 64. </strong> </p>
+            <div id="read-more">
+            <a  href="http://www.abpasbl.be/-Service-Social-"> <button class="btn btn-warning" type="button">Read more</button></a> 
+            </div>
+            <h5 class="title-bg"> NEWS</h5>
+
+            <div class="row">
+                <div class="span2">
+                    <img src="assets/img/agenda.jpg" alt="Image" class="thumbnail">
+                    <h5>Handivisit : Agenda 2018</h5>
+                    <p>Sortez vos agendas, les dates des prochaines activités de l’ABP sont connues.</p>
+                    <a href="http://www.abpasbl.be/-Actualites-"><button class="btn btn-mini btn btn-warning" type="button">Read more</button></a>
+                </div>
+                <div class="span2">
+                    <img src="assets/img/foirelivre.png" alt="Image" class="thumbnail">
+                    <h5>Handivisit : Foire du Livre</h5>
+                    <p>Vous êtes un passionné de lecture ? Vous avez envie de faire dédicacer le dernier livre que vous avez acheté par son auteur ? Ou vous voulez tout simplement passer un moment à vous balader dans les allées de Tour & Taxis ? L’ABP vous emmène à la Foire du Livre de Bruxelles ce samedi 24 février.</p>
+                    <a href="http://www.abpasbl.be/-Actualites-"><button class="btn btn-mini btn btn-warning" type="button">Read more</button></a>
+                </div>
+                <div class="span2">
+                    <img src="assets/img/train.jpg" alt="Image" class="thumbnail">
+                    <h5>Handivisit : Musée du Train</h5>
+                    <p>L’ABP s’est rendue en groupe ce dimanche 28 janvier pour effectuer un voyage dans le temps en embarquant dans les trains du passé grâce à une des guides de Train World.</p>
+                    <a href="http://www.abpasbl.be/-Actualites-"><button class="btn btn-mini btn btn-warning" type="button">Read more</button></a>
+                </div>
+                <div class="span2">
+                    <img src="assets/img/thermique.jpg" alt="Image" class="thumbnail">
+                    <h5>Tissu thermique</h5>
+                    <p>Il y a quelques mois, en discutant d’un produit n’ayant rien à voir avec le handicap, le fournisseur m’indiquait vouloir importer un produit extraordinaire qu’il avait découvert. Nous venons de le tester.</p>
+                    <a href="http://www.abpasbl.be/-Actualites-"><button class="btn btn-mini btn btn-warning" type="button">Read more</button></a>
+                </div>
+            </div>
+
+
+        </div> <!--End page content column-->
+
+        <!-- Blog Sidebar
+        ================================================== --> 
+        <div class="span4 sidebar page-sidebar"><!-- Begin sidebar column -->
+
+            <!--Tabbed Content-->
+            <h5 class="title-bg">Suivez-nous !</h5>
+
+            <h4>Abonnez-vous à la Newsletter et recevez les informations sur les activités de l’ABP.</h4>
+
+
+            <div class="input-prepend">
+                <input class="span2" id="prependedInput" size="16" type="text" placeholder="Votre adresse e-mail"><span class="add-on">@</span>
+            </div>
+
+            <div class="input-append">
+                <input class="span2" id="appendedInputButton" size="16" type="text" placeholder="Votre nom et votre personne">
+            </div>
+            <button class="btn btn-warning" type="button">Envoyer</button>
+
+            <!--Testimonials-->
+            <h5 class="title-bg">Facebook</h5>
+            
+            <h4>Rejoignez la page Facebook de l’ABP.</h4>
+
+            <iframe name="fada43884321a8" width="280px" height="110px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like_box Facebook Social Plugin" src="https://www.facebook.com/plugins/like_box.php?app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FlY4eZXm_YWu.js%3Fversion%3D42%23cb%3Df3db8f7ae9631b4%26domain%3Dwww.abpasbl.be%26origin%3Dhttp%253A%252F%252Fwww.abpasbl.be%252Ff14f4fd778245ec%26relation%3Dparent.parent&amp;container_width=290&amp;header=true&amp;height=110&amp;href=https%3A%2F%2Fwww.facebook.com%2FABPasbl.be%3Fref%3Dts%26fref%3Dts&amp;locale=fr_FR&amp;sdk=joey&amp;show_border=true&amp;show_faces=false&amp;stream=false&amp;width=280" style="border: none; visibility: visible; width: 100%; height: 100px;" class=""></iframe>
+
+
+        </div><!-- End sidebar column -->
+
+    </div><!-- End container row -->
+
+
+
+    
+    <div class="row gallery-row"><!-- Begin Gallery Row --> 
+      
+    	<div class="span12">
+            <h5 class="title-bg">Photos 
+                <small>Nos activités en photo</small>
+                <button class="btn btn-mini btn-warning hidden-phone" type="button">Voir gallerie complète</button>
+            </h5>
+    	
+        <!-- Gallery Thumbnails
+        ================================================== -->
+
+            <div class="row clearfix no-margin">
+            <ul class="gallery-post-grid holder row the-grid">
+
+                    <!-- Gallery Item 1 -->
+                    <li  class="span3 gallery-item" data-id="id-1" data-type="illustration">
+                        
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/choco.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Custom Illustration</a>For an international ad campaign.</span>
+                    </li>
+
+                    <!-- Gallery Item 2 -->
+                    <li class="span3 gallery-item" data-id="id-2" data-type="illustration">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/handi75.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">3 Color Poster Design</a>For a regional festival event.</span>
+                    </li>
+
+                    <!-- Gallery Item 3 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/mer.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Ink Pen Illustration</a>Created for a best selling children's book.</span>
+                    </li>
+
+                    <!-- Gallery Item 4 -->
+                    <li class="span3 gallery-item" data-id="id-4" data-type="video">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/souper.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Custom Illustration</a>For an international add campaign.</span>
+                    </li>
+
+                </ul>
+                <ul class="gallery-post-grid holder row the-grid">
+
+                    <!-- Gallery Item 5 -->
+                    <li class="span3 gallery-item" data-id="id-5" data-type="web illustration">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/waterloo.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Icon Design</a>Classic retro style illustration.</span>
+                    </li>
+
+                    <!-- Gallery Item 6 -->
+                    <li class="span3 gallery-item" data-id="id-6" data-type="illustration design">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/choco.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Animation Cell</a>Creative storyboard illustration</span>
+                    </li>
+
+                    <!-- Gallery Item 7 -->
+                    <li class="span3 gallery-item" data-id="id-7" data-type="design">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/handi75.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Poster Ad Campaign</a>Regional ad for a local company.</span>
+                    </li>
+
+                    <!-- Gallery Item 8 -->
+                    <li class="span3 gallery-item" data-id="id-8" data-type="web video">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/mer.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Magazine Ad</a>For an international add campaign.</span>
+                    </li>
+                </ul>
+                <ul class="gallery-post-grid holder row the-grid">
+
+                    <!-- Gallery Item 9 -->
+                    <li class="span3 gallery-item" data-id="id-9" data-type="design">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="assets/img/gallery/souper.jpg" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                <a href="http://www.abpasbl.be/-Activites-Loisirs-" class="item-details-link"></a>
+                            </span>
+                        </span>
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/souper.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Character Designs</a>For a feature film.</span>
+                    </li>
+
+                    <!-- Gallery Item 10 -->
+                    <li class="span3 gallery-item" data-id="id-10" data-type="web design">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/waterloo.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Poster and Ad Design</a>For an international add campaign.</span>
+                    </li>
+
+                    <!-- Gallery Item 11 -->
+                    <li class="span3 gallery-item" data-id="id-11" data-type="illustration">
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/cirque.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Website and Animation</a>For a local business.</span>
+                    </li>
+
+                    <!-- Gallery Item 12 -->
+                    <li class="span3 gallery-item" data-id="id-12" data-type="illustration video">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/choco.jpg" class="item-zoom-link lightbox" title="Custom Illustration" data-rel="prettyPhoto"></a>
+                                <a href="http://www.abpasbl.be/-Activites-Loisirs-" class="item-details-link"></a>
+                            </span>
+                        </span>
+                        <a href="http://www.abpasbl.be/-Activites-Loisirs-"><img src="assets/img/gallery/choco.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="http://www.abpasbl.be/-Activites-Loisirs-">Branding Design</a>For an international add campaign.</span>
+                    </li>
+                </ul>
+                </div>
+            </div>
+ 
+    </div><!-- End Gallery Row -->
+    
+    <div class="row"><!-- Begin Bottom Section -->
+    
+    	<!-- Blog Preview
+        ================================================== -->
+
+        
+        
+          
+    </div><!-- End Bottom Section -->
+    
+    </div> <!-- End Container -->
+
+    <!-- Footer Area
+        ================================================== -->
+
+	<div class="footer-container"><!-- Begin Footer -->
+    	<div class="container">
+        	<div class="row footer-row">
+                <div class="span3 footer-col">
+                    <h5>Contact</h5>
+                   <img class="logo" src="assets/img/logo.jpg" alt="ABP" /><br /><br />
+                    <address>
+                        <strong>Association Belge des Paralysés a.s.b.l.</strong><br />
+                        Chaussée de Gand 1434<br />
+                        1082 - Berchem Ste-Agathe<br>
+                        Belgique<br />
+                        Tél. : 02 421 69 65<br>
+                        E-mail : info@abpasbl.be<br>
+                        BE48 7755 9201 1027
+                    </address>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/ABPasbl.be/" class="social-icon facebook"></a></li>
+                    </ul>
+                </div>
+                <div class="span3 footer-col">
+                    
+                </div>
+                <div class="span3 footer-col">
+                    
+                </div>
+            </div>
+
+            <div class="row"><!-- Begin Sub Footer -->
+                <div class="span12 footer-col footer-sub">
+                    <div class="row no-margin">
+                        <div class="span6"><span class="left">Copyright 2012 Piccolo Theme. All rights reserved.</span></div>
+                        <div class="span6">
+                            <span class="right">
+                            <a href="#">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Gallery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Blog</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Contact</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End Sub Footer -->
+
+        </div>
+    </div><!-- End Footer --> 
+    
+    <!-- Scroll to Top -->  
+    <div id="toTop" class="hidden-phone hidden-tablet">Back to Top</div>
+    
+</body>
+</html>
